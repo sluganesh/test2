@@ -9,16 +9,17 @@ namespace WebApplication2.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class Test2Controller : ControllerBase
     {
-        // GET: api/Values
+        // GET: api/Test2
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
-        
        
+
+        
     }
 }
