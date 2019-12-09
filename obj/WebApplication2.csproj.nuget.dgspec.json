@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sganesh\\source\\repos\\WebApplication2\\WebApplication2.csproj": {}
+    "C:\\Azure learning\\testproject\\test\\test2\\WebApplication2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sganesh\\source\\repos\\WebApplication2\\WebApplication2.csproj": {
+    "C:\\Azure learning\\testproject\\test\\test2\\WebApplication2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sganesh\\source\\repos\\WebApplication2\\WebApplication2.csproj",
+        "projectUniqueName": "C:\\Azure learning\\testproject\\test\\test2\\WebApplication2.csproj",
         "projectName": "WebApplication2",
-        "projectPath": "C:\\Users\\sganesh\\source\\repos\\WebApplication2\\WebApplication2.csproj",
+        "projectPath": "C:\\Azure learning\\testproject\\test\\test2\\WebApplication2.csproj",
         "packagesPath": "C:\\Users\\sganesh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sganesh\\source\\repos\\WebApplication2\\obj\\",
+        "outputPath": "C:\\Azure learning\\testproject\\test\\test2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,9 +42,27 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.9.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [
